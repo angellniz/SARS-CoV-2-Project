@@ -1,0 +1,22 @@
+EXPERIMENT 3 — SIMILARITY ANALYSIS SUMMARY
+======================================================================
+Feature space: k = 4  (256 features)
+Training genomes: 1721
+
+Cosine distance between lineage centroids:
+                         Alpha          Beta         Delta         Gamma   Omicron_BA1
+          Alpha         0.0000        0.0000        0.0000        0.0000        0.0001
+           Beta         0.0000        0.0000        0.0000        0.0000        0.0001
+          Delta         0.0000        0.0000        0.0000        0.0000        0.0001
+          Gamma         0.0000        0.0000        0.0000        0.0000        0.0001
+    Omicron_BA1         0.0001        0.0001        0.0001        0.0001        0.0000
+
+Distinctiveness score (mean cosine distance to other lineages):
+  Alpha           : 0.0000
+  Beta            : 0.0000
+  Delta           : 0.0000
+  Gamma           : 0.0000
+  Omicron_BA1     : 0.0001
+
+Closest pair : Alpha vs Beta  (cosine = 0.0000)
+Furthest pair: Delta vs Omicron_BA1  (cosine = 0.0001)

@@ -1,0 +1,92 @@
+{
+  "Alpha": {
+    "held_out": "Alpha",
+    "known_lineages": [
+      "Beta",
+      "Delta",
+      "Gamma",
+      "Omicron_BA1"
+    ],
+    "n_train_oc": 1084,
+    "n_test_known": 271,
+    "n_test_unknown": 366,
+    "threshold": -3.557177247053215e-05,
+    "mean_score_known": 0.036733119601574445,
+    "mean_score_novel": 0.0407735244977908,
+    "auc": 0.470721674429859,
+    "flag_rate_known": 0.07749077490774908,
+    "flag_rate_unknown": 0.040983606557377046
+  },
+  "Beta": {
+    "held_out": "Beta",
+    "known_lineages": [
+      "Alpha",
+      "Delta",
+      "Gamma",
+      "Omicron_BA1"
+    ],
+    "n_train_oc": 1077,
+    "n_test_known": 269,
+    "n_test_unknown": 375,
+    "threshold": -0.00011192806547910524,
+    "mean_score_known": 0.0417251391924372,
+    "mean_score_novel": 0.04670723938677162,
+    "auc": 0.4866914498141264,
+    "flag_rate_known": 0.07434944237918216,
+    "flag_rate_unknown": 0.02666666666666667
+  },
+  "Delta": {
+    "held_out": "Delta",
+    "known_lineages": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Omicron_BA1"
+    ],
+    "n_train_oc": 1159,
+    "n_test_known": 290,
+    "n_test_unknown": 272,
+    "threshold": -0.0001000553185605213,
+    "mean_score_known": 0.04036709156816543,
+    "mean_score_novel": 0.012386692515870108,
+    "auc": 0.8817570993914807,
+    "flag_rate_known": 0.06206896551724138,
+    "flag_rate_unknown": 0.2610294117647059
+  },
+  "Gamma": {
+    "held_out": "Gamma",
+    "known_lineages": [
+      "Alpha",
+      "Beta",
+      "Delta",
+      "Omicron_BA1"
+    ],
+    "n_train_oc": 1062,
+    "n_test_known": 265,
+    "n_test_unknown": 394,
+    "threshold": 4.543629157538622e-06,
+    "mean_score_known": 0.046755896436662545,
+    "mean_score_novel": 0.04782257920935772,
+    "auc": 0.5537879513456565,
+    "flag_rate_known": 0.03773584905660377,
+    "flag_rate_unknown": 0.027918781725888325
+  },
+  "Omicron_BA1": {
+    "held_out": "Omicron_BA1",
+    "known_lineages": [
+      "Alpha",
+      "Beta",
+      "Delta",
+      "Gamma"
+    ],
+    "n_train_oc": 1126,
+    "n_test_known": 281,
+    "n_test_unknown": 314,
+    "threshold": -0.00021010007541910625,
+    "mean_score_known": 0.03814864351363412,
+    "mean_score_novel": -0.0007668876484139049,
+    "auc": 0.9325883446290546,
+    "flag_rate_known": 0.03914590747330961,
+    "flag_rate_unknown": 0.445859872611465
+  }
+}

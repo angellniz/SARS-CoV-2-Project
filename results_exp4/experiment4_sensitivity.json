@@ -1,0 +1,203 @@
+{
+  "0.01": {
+    "Alpha": {
+      "held_out": "Alpha",
+      "nu": 0.01,
+      "auc": 0.4102695944992237,
+      "flag_rate_known": 0.04797047970479705,
+      "flag_rate_unknown": 0.03551912568306011,
+      "mean_score_known": 0.014964635193283627,
+      "mean_score_novel": 0.015615094555706473,
+      "threshold": 0.005196518748982371,
+      "n_train_oc": 1084,
+      "n_test_known": 271,
+      "n_test_unknown": 366
+    },
+    "Beta": {
+      "held_out": "Beta",
+      "nu": 0.01,
+      "auc": 0.5130111524163569,
+      "flag_rate_known": 0.04460966542750929,
+      "flag_rate_unknown": 0.018666666666666668,
+      "mean_score_known": 0.015353725272658252,
+      "mean_score_novel": 0.01580707583955468,
+      "threshold": 0.005227613677908494,
+      "n_train_oc": 1077,
+      "n_test_known": 269,
+      "n_test_unknown": 375
+    },
+    "Delta": {
+      "held_out": "Delta",
+      "nu": 0.01,
+      "auc": 0.8844066937119676,
+      "flag_rate_known": 0.03103448275862069,
+      "flag_rate_unknown": 0.2610294117647059,
+      "mean_score_known": 0.014009244973894311,
+      "mean_score_novel": 0.008043713747447482,
+      "threshold": 0.005378820938035745,
+      "n_train_oc": 1159,
+      "n_test_known": 290,
+      "n_test_unknown": 272
+    },
+    "Gamma": {
+      "held_out": "Gamma",
+      "nu": 0.01,
+      "auc": 0.6136576956230245,
+      "flag_rate_known": 0.03773584905660377,
+      "flag_rate_unknown": 0.027918781725888325,
+      "mean_score_known": 0.01432691328500888,
+      "mean_score_novel": 0.014144322812818338,
+      "threshold": 0.004833349092073558,
+      "n_train_oc": 1062,
+      "n_test_known": 265,
+      "n_test_unknown": 394
+    },
+    "Omicron_BA1": {
+      "held_out": "Omicron_BA1",
+      "nu": 0.01,
+      "auc": 0.9294376317519324,
+      "flag_rate_known": 0.046263345195729534,
+      "flag_rate_unknown": 0.3885350318471338,
+      "mean_score_known": 0.014770363831194058,
+      "mean_score_novel": 0.007135119857869757,
+      "threshold": 0.00620304340106026,
+      "n_train_oc": 1126,
+      "n_test_known": 281,
+      "n_test_unknown": 314
+    }
+  },
+  "0.05": {
+    "Alpha": {
+      "held_out": "Alpha",
+      "nu": 0.05,
+      "auc": 0.5136410380497247,
+      "flag_rate_known": 0.04797047970479705,
+      "flag_rate_unknown": 0.03551912568306011,
+      "mean_score_known": 0.04541923198291108,
+      "mean_score_novel": 0.045985898769689164,
+      "threshold": 0.00011520731148877722,
+      "n_train_oc": 1084,
+      "n_test_known": 271,
+      "n_test_unknown": 366
+    },
+    "Beta": {
+      "held_out": "Beta",
+      "nu": 0.05,
+      "auc": 0.5010458488228006,
+      "flag_rate_known": 0.04460966542750929,
+      "flag_rate_unknown": 0.024,
+      "mean_score_known": 0.047654794653234106,
+      "mean_score_novel": 0.05006756442860952,
+      "threshold": -4.0504738446145436e-05,
+      "n_train_oc": 1077,
+      "n_test_known": 269,
+      "n_test_unknown": 375
+    },
+    "Delta": {
+      "held_out": "Delta",
+      "nu": 0.05,
+      "auc": 0.8842292089249493,
+      "flag_rate_known": 0.03103448275862069,
+      "flag_rate_unknown": 0.2610294117647059,
+      "mean_score_known": 0.042035641560446514,
+      "mean_score_novel": 0.012607718744240866,
+      "threshold": 5.879494393213633e-06,
+      "n_train_oc": 1159,
+      "n_test_known": 290,
+      "n_test_unknown": 272
+    },
+    "Gamma": {
+      "held_out": "Gamma",
+      "nu": 0.05,
+      "auc": 0.5554640360118762,
+      "flag_rate_known": 0.045283018867924525,
+      "flag_rate_unknown": 0.027918781725888325,
+      "mean_score_known": 0.04542420567477064,
+      "mean_score_novel": 0.046442943765507436,
+      "threshold": -4.860548632023759e-07,
+      "n_train_oc": 1062,
+      "n_test_known": 265,
+      "n_test_unknown": 394
+    },
+    "Omicron_BA1": {
+      "held_out": "Omicron_BA1",
+      "nu": 0.05,
+      "auc": 0.9351723825282772,
+      "flag_rate_known": 0.046263345195729534,
+      "flag_rate_unknown": 0.4394904458598726,
+      "mean_score_known": 0.038582333155899366,
+      "mean_score_novel": -0.0005152308799384975,
+      "threshold": 9.475846565010215e-05,
+      "n_train_oc": 1126,
+      "n_test_known": 281,
+      "n_test_unknown": 314
+    }
+  },
+  "0.1": {
+    "Alpha": {
+      "held_out": "Alpha",
+      "nu": 0.1,
+      "auc": 0.491833524892626,
+      "flag_rate_known": 0.04797047970479705,
+      "flag_rate_unknown": 0.040983606557377046,
+      "mean_score_known": 0.05695412818439485,
+      "mean_score_novel": 0.05876343494390335,
+      "threshold": -0.02775360387233618,
+      "n_train_oc": 1084,
+      "n_test_known": 271,
+      "n_test_unknown": 366
+    },
+    "Beta": {
+      "held_out": "Beta",
+      "nu": 0.1,
+      "auc": 0.5282180916976456,
+      "flag_rate_known": 0.04460966542750929,
+      "flag_rate_unknown": 0.02666666666666667,
+      "mean_score_known": 0.06050983535117936,
+      "mean_score_novel": 0.06338531426497472,
+      "threshold": -0.027768868808323074,
+      "n_train_oc": 1077,
+      "n_test_known": 269,
+      "n_test_unknown": 375
+    },
+    "Delta": {
+      "held_out": "Delta",
+      "nu": 0.1,
+      "auc": 0.8852434077079108,
+      "flag_rate_known": 0.03793103448275862,
+      "flag_rate_unknown": 0.2647058823529412,
+      "mean_score_known": 0.04454672598923135,
+      "mean_score_novel": -0.014754585115290219,
+      "threshold": -0.03826479499840473,
+      "n_train_oc": 1159,
+      "n_test_known": 290,
+      "n_test_unknown": 272
+    },
+    "Gamma": {
+      "held_out": "Gamma",
+      "nu": 0.1,
+      "auc": 0.5718992433674935,
+      "flag_rate_known": 0.045283018867924525,
+      "flag_rate_unknown": 0.027918781725888325,
+      "mean_score_known": 0.05821727600815524,
+      "mean_score_novel": 0.05876987362520297,
+      "threshold": -0.026857063521409683,
+      "n_train_oc": 1062,
+      "n_test_known": 265,
+      "n_test_unknown": 394
+    },
+    "Omicron_BA1": {
+      "held_out": "Omicron_BA1",
+      "nu": 0.1,
+      "auc": 0.9426071582383209,
+      "flag_rate_known": 0.046263345195729534,
+      "flag_rate_unknown": 0.49363057324840764,
+      "mean_score_known": 0.03386412458958508,
+      "mean_score_novel": -0.04875859008322658,
+      "threshold": -0.03734882050571997,
+      "n_train_oc": 1126,
+      "n_test_known": 281,
+      "n_test_unknown": 314
+    }
+  }
+}

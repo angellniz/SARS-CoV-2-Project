@@ -1,0 +1,890 @@
+{
+  "3": {
+    "random": {
+      "dim": 64,
+      "train_size": 1721,
+      "test_size": 431,
+      "seconds": 0.65,
+      "random_forest": {
+        "accuracy": 0.9976798143851509,
+        "macro_f1": 0.9978489027669355,
+        "weighted_f1": 0.9976796131373743,
+        "macro_precision": 0.9978947368421054,
+        "macro_recall": 0.9978260869565216,
+        "confusion_matrix": [
+          [
+            91,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      0.99      0.99        92\n        Beta       0.99      1.00      0.99        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      },
+      "linear_svm": {
+        "accuracy": 0.9976798143851509,
+        "macro_f1": 0.9975134933928903,
+        "weighted_f1": 0.9976770507171934,
+        "macro_precision": 0.998,
+        "macro_recall": 0.9970588235294118,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            67,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      0.99      0.99        68\n       Gamma       0.99      1.00      0.99        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      }
+    },
+    "time": {
+      "dim": 64,
+      "train_size": 1721,
+      "test_size": 431,
+      "seconds": 0.67,
+      "random_forest": {
+        "accuracy": 0.9953596287703016,
+        "macro_f1": 0.9948849104859334,
+        "weighted_f1": 0.9953596287703016,
+        "macro_precision": 0.9948849104859334,
+        "macro_recall": 0.9948849104859334,
+        "confusion_matrix": [
+          [
+            91,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            67,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       0.99      0.99      0.99        92\n        Beta       1.00      1.00      1.00        94\n       Delta       0.99      0.99      0.99        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       0.99      0.99      0.99       431\nweighted avg       1.00      1.00      1.00       431\n"
+      },
+      "linear_svm": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      }
+    }
+  },
+  "4": {
+    "random": {
+      "dim": 256,
+      "train_size": 1721,
+      "test_size": 431,
+      "seconds": 0.82,
+      "random_forest": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      },
+      "linear_svm": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      }
+    },
+    "time": {
+      "dim": 256,
+      "train_size": 1721,
+      "test_size": 431,
+      "seconds": 0.85,
+      "random_forest": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      },
+      "linear_svm": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      }
+    }
+  },
+  "5": {
+    "random": {
+      "dim": 1024,
+      "train_size": 1721,
+      "test_size": 431,
+      "seconds": 1.57,
+      "random_forest": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      },
+      "linear_svm": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      }
+    },
+    "time": {
+      "dim": 1024,
+      "train_size": 1721,
+      "test_size": 431,
+      "seconds": 1.52,
+      "random_forest": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      },
+      "linear_svm": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      }
+    }
+  },
+  "6": {
+    "random": {
+      "dim": 4096,
+      "train_size": 1721,
+      "test_size": 431,
+      "seconds": 198.01,
+      "random_forest": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      },
+      "linear_svm": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      }
+    },
+    "time": {
+      "dim": 4096,
+      "train_size": 1721,
+      "test_size": 431,
+      "seconds": 191.33,
+      "random_forest": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      },
+      "linear_svm": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "macro_precision": 1.0,
+        "macro_recall": 1.0,
+        "confusion_matrix": [
+          [
+            92,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            94,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            68,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            99,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ]
+        ],
+        "labels": [
+          "Alpha",
+          "Beta",
+          "Delta",
+          "Gamma",
+          "Omicron_BA1"
+        ],
+        "report": "              precision    recall  f1-score   support\n\n       Alpha       1.00      1.00      1.00        92\n        Beta       1.00      1.00      1.00        94\n       Delta       1.00      1.00      1.00        68\n       Gamma       1.00      1.00      1.00        99\n Omicron_BA1       1.00      1.00      1.00        78\n\n    accuracy                           1.00       431\n   macro avg       1.00      1.00      1.00       431\nweighted avg       1.00      1.00      1.00       431\n"
+      }
+    }
+  }
+}
