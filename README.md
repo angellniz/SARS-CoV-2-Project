@@ -53,14 +53,6 @@ python experiment4_sensitivity.py # Nu parameter sweep
 ##  Reproducibility
 All random seeds are fixed at `42`. Every intermediate artifact (filtered datasets, split assignments, feature matrices, and predictions) is saved to disk in `.csv`, `.json`, `.npy`, and `.npz` formats. The pipeline runs end-to-end on a standard laptop CPU in approximately 20 minutes.
 
-##  Citation
-If you use this code in your research, please cite our paper:
-@inproceedings{yourname2026divergence,
-  title={Divergence-Dependent Novelty Detection for SARS-CoV-2 Genomic Surveillance Using k-mer Features and One-Class SVM},
-  author={Your Name},
-  booktitle={IEEE Conference Name},
-  year={2026}
-}
 
 ##  Contact
-For questions or issues, please open an issue on GitHub or contact [Your Email].
+For questions or issues, please open an issue on GitHub or contact [angellunnss@gmail.com].
